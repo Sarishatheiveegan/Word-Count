@@ -4,24 +4,42 @@ To write a python program for getting the word count from a text.
 ## EQUIPEMENT'S REQUIRED: 
 PC
 Anaconda - Python 3.7
-## ALGORITHM: 
-### Step 1:
+## ALGORITHM
 
-### Step 2: 
- 
-### Step 3: 
+### step 1:
+Import numpy as np
 
-### Step 4:  
+### Step 2:
+Enter the input values
 
-### Step 5: 
+### Step 3:
+Write python program for getting the word count from the contents of a file using command line arguments
 
-### Step 6: 
+### Step 4:
+Run the program
+
+### Step 5:
+Input the values
+
+### Step 6:
+End the program
 
 ## PROGRAM:
 
+## Word count in a Text file
+#### Developed by: MARINO SARISHA T
+#### Register number: 212223240084
+```
+num=0
+with open ("story.txt","r") as f1:
+    for i in f1:
+        word=i.split()
+        num += len(word)
+    print("The number of words are in the file is",num)
+```
 ### OUTPUT:
-
-
+![alt text](<Screenshot 2024-05-15 170239.png>)
+![alt text](<Screenshot 2024-05-15 170210.png>)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
